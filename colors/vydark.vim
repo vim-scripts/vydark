@@ -2,7 +2,7 @@
 " Vim colour file
 "
 " Maintainer:  Vy-Shane Sin Fat <shane@node.mu>
-" Version:     1.0
+" Version:     1.1
 "
 " This colour file is meant for GUI use.
 "
@@ -39,7 +39,11 @@ if version >= 700
   hi Search      guifg=#dddd99  guibg=#444433  gui=none
   hi IncSearch   guifg=#eeeeaa  guibg=#666633  gui=bold
   hi CursorLine  guibg=#353535  gui=none
-  hi ColorColumn guibg=#292929
+  hi ColorColumn guibg=#252525
+  hi SpellBad    guisp=#774444
+  hi SpellCap    guisp=#774444
+  hi SpellLocal  guisp=#774444
+  hi SpellRare   guisp=#774444
 endif
 
 
